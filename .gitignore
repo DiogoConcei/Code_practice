@@ -73,6 +73,9 @@ web_modules/
 # Output of 'npm pack'
 *.tgz
 
+dist/
+coverage/
+
 # Yarn Integrity file
 .yarn-integrity
 

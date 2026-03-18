@@ -1,5 +1,22 @@
 {
+  "name": "code-exercises",
+  "version": "1.0.0",
+  "description": "Repositório de exercícios de lógica de programação",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
   "devDependencies": {
-    "ts-loader": "^9.5.1"
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
+    "eslint": "^10.0.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.3"
   }
 }
