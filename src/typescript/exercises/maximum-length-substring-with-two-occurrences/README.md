@@ -1,26 +1,23 @@
-3090. Maximum Length Substring With Two Occurrences
+# 3090. Maximum Length Substring With Two Occurrences
+
+## Description
 
 Given a string s, return the maximum length of a such that it contains at most two occurrences of each character.
 
-Example 1:
+### Example 1:
 
-Input: s = "bcbbbcba"
-
-Output: 4
+**Input:** `s = "bcbbbcba"`
+**Output:** `4`
 
 Explanation:
 The following substring has a length of 4 and contains at most two occurrences of each character: "bcbbbcba".
 
-Example 2:
+### Example 2:
 
-Input: s = "aaaa"
+**Input:** `s = "aaaa"`
+**Output:** `2`
 
-Output: 2
+### Constraints:
 
-Explanation:
-The following substring has a length of 2 and contains at most two occurrences of each character: "aaaa".
-
-Constraints:
-
-    2 <= s.length <= 100
-    s consists only of lowercase English letters.
+- `2 <= s.length <= 100`
+- `s` consists only of lowercase English letters.
