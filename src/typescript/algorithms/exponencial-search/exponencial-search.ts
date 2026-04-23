@@ -53,3 +53,5 @@ function ExponentialSearch(arr: number[], target: number) {
 }
 
 console.log(ExponentialSearch(numbers, 10));
+
+export {};

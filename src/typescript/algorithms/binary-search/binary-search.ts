@@ -22,3 +22,5 @@ function binary_search(arr: number[], target: number): number {
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 console.log(binary_search(arr, 3));
+
+export {};

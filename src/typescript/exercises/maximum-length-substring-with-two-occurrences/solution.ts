@@ -27,3 +27,5 @@ function maximumLengthSubstring(s: string): number {
 
 let s = 'bcbbbcba';
 console.log(maximumLengthSubstring(s));
+
+export {};
